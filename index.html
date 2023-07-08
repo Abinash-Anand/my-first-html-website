@@ -10,9 +10,12 @@
     href="https://fonts.googleapis.com/css2?family=Merienda+One&family=Merriweather:wght@300&family=Sacramento&family=Ubuntu:wght@300&display=swap"
     rel="stylesheet">
   <script src="https://kit.fontawesome.com/2ce6025e6d.js" crossorigin="anonymous"></script>
+  <!--Bootstrap-->
+
 </head>
 
 <body>
+
 
   <div class="top_container">
     <img src="img/cloud.png" alt="cloud" class="top-cloud">
@@ -25,8 +28,11 @@
   <div class="middle-container">
     <div class="profile">
       <img src="img/abinash.png" alt="profile picture" class="dp">
-      <h2>Hello.</h2>
-      <p class="hello">I'm an engineering student currently studying in BV(DU), Pune.</p>
+      <h2 id="animation"></h2>
+      <p class="hello">Mastering the art of crafting cutting-edge web experiences with advanced HTML5, CSS3, and
+        JavaScript, while seamlessly integrating back-end technologies like Node.js, Express, MongoDB, and Mongoose, I
+        am a passionate full-stack web developer ready to revolutionize the digital world.
+      </p>
     </div>
     <hr>
     <div class="skills">
@@ -55,6 +61,81 @@
         <p class="technology">JAVA</p>
       </div>
     </section>
+
+    <!--Projects section-->
+    <section>
+      <div class="projects">
+
+        <h1>Projects</h1>
+        <div class="project-items">
+
+        </div>
+        <div class="project-items"></div>
+        <div class="project-items"></div>
+        <div class="project-items"></div>
+        <!-- <div class="technology"></div>
+        <div class="technology">JAVA</div> -->
+
+      </div>
+    </section>
+
+    <!--Projects-->
+    <div class="carousel">
+      <div class="carousel-container">
+        <div class="carousel-slide">
+          <img src="/img/project1.png" alt="Slide 1">
+          <div class="carousel-slide-content">
+            <a href="https://abinash-anand.github.io/Tindog.github.io" class="project-links"> View Project</a>
+
+
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <img src="/img/project2.png" alt="Slide 2">
+          <div class="carousel-slide-content">
+            <a href="https://abinash-anand.github.io/Ashish-Portfolio-Website/" class="project-links">View Project</a>
+
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <img src="/img/project3.png" alt="Slide 3">
+          <div class="carousel-slide-content">
+            <a href="https://abinash-anand.github.io/speech-synthesis-web-app/" class="project-links">View Project</a>
+
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <img src="/img/project4.png" alt="Slide 3">
+          <div class="carousel-slide-content">
+            <a href="https://abinash-anand.github.io/game-guess-the-number/" class="project-links">View Project</a>
+
+          </div>
+        </div>
+      </div>
+
+
+      <a class="carousel-prev">&#8249;</a>
+      <a class="carousel-next">&#8250;</a>
+    </div>
+
+
+    <!--Experience-->
+    <section>
+      <div class="experience">
+
+        <h1>Experience</h1>
+        <div class="technology"></div>
+        <div class="technology"></div>
+        <div class="technology"></div>
+        <div class="technology"></div>
+        <!-- <div class="technology"></div>
+        <div class="technology">JAVA</div> -->
+
+      </div>
+    </section>
+
+
+
 
     <!-- <div class="skills">
       <h2>My Skills</h2>
@@ -102,10 +183,45 @@
   <div class="bottom-container">
     <a class="footer-link" href="https://www.linkedin.com/in/abinash-anand-064598203/">LinkedIn</a>
     <a class="footer-link" href="https://www.instagram.com/abinash_anand_/">Instagram</a>
-    <a class="footer-link" href="https://github.com/Abinash-Anand/CV">Github</a>
+    <a class="footer-link" href="https://github.com/Abinash-Anand">Github</a>
     <p class="copy-right">© 2020 Abinash Anand.</p>
   </div>
-  <script src="/script.js"></script>
+
+  <script>
+
+    //carrousel===========================================
+    const carousel = document.querySelector(".carousel");
+    const carouselContainer = document.querySelector(".carousel-container");
+    const prevBtn = document.querySelector(".carousel-prev");
+    const nextBtn = document.querySelector(".carousel-next");
+    const slideWidth = carouselContainer.offsetWidth;
+
+    let currentPosition = 0;
+
+    nextBtn.addEventListener("click", () => {
+      currentPosition -= slideWidth;
+      carouselContainer.style.transform = `translateX(${currentPosition}px)`;
+
+      if (
+        currentPosition <= -(slideWidth * (carouselContainer.children.length - 1))
+      ) {
+        currentPosition = 0;
+      }
+    });
+
+    prevBtn.addEventListener("click", () => {
+      currentPosition += slideWidth;
+      carouselContainer.style.transform = `translateX(${currentPosition}px)`;
+
+      if (currentPosition > 0) {
+        currentPosition = -(slideWidth * (carouselContainer.children.length - 1));
+      }
+    });
+
+
+  </script>
+
+  <!-- <script src="/script.js"></script> -->
 
 </body>
 

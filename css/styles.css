@@ -15,6 +15,68 @@ body {
   background-color: #e8ffff;
 
 }
+
+
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-slide {
+  flex: 0 0 100%;
+  position: relative;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-slide-content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}
+
+.carousel-slide h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.carousel-slide p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  cursor: pointer;
+}
+
+.carousel-prev {
+  left: 10px;
+}
+
+.carousel-next {
+  right: 10px;
+}
+
+
+
 .middle-container{
 
 }
@@ -57,12 +119,17 @@ h2 {
   font-weight: normal;
   
 }
+.middle-container{
+  display: grid;
 
+ 
+}
 .hello {
-  width: 30%;
+  margin: 10px 265px;
+  /* width: 30%;
   position: relative;
   left: 35%;
-  margin-bottom: 50px;
+  margin-bottom: 50px; */
 }
 /* .skills{
   margin-top: 50px;
@@ -222,6 +289,28 @@ a:hover {
   background-color:#11999e;
   color: whitesmoke;
 }
+
+
+.project-links{
+  background-color: rgb(169, 165, 165);
+  padding: 15px;
+  font-family:inherit ;
+  color: black;
+  border-radius: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
