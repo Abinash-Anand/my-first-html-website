@@ -1,25 +1,3 @@
-const checkbox = document.getElementById("checkbox");
-checkbox.addEventListener("change", () => {
-  //change the theme of the website
-  document.body.classList.toggle("dark");
-});
-
-// //printing hello==================================
-// const text = "Hola!";
-
-// let index = 0;
-
-// function printLetter() {
-//   document.getElementById("animation").textContent += text[index];
-//   index++;
-
-//   if (index === text.length) {
-//     clearInterval(timer);
-//   }
-// }
-
-// const timer = setInterval(printLetter, 200);
-//carrousel===========================================
 const carousel = document.querySelector(".carousel");
 const carouselContainer = document.querySelector(".carousel-container");
 const prevBtn = document.querySelector(".carousel-prev");
@@ -47,3 +25,25 @@ prevBtn.addEventListener("click", () => {
     currentPosition = -(slideWidth * (carouselContainer.children.length - 1));
   }
 });
+
+var resumeContainer = document.querySelector(".iframe-container");
+var resumeIframe = document.getElementById("resume");
+var originalHeight;
+
+function toggleResumeSize() {
+  var maximizeButton = document.querySelector(".maximize-button");
+  var minimizeButton = document.querySelector(".minimize-button");
+
+  if (resumeContainer.classList.contains("maximized")) {
+    resumeContainer.style.height = originalHeight;
+    maximizeButton.style.display = "block";
+    minimizeButton.style.display = "none";
+    resumeContainer.classList.remove("maximized");
+  } else {
+    originalHeight = resumeContainer.style.height;
+    resumeContainer.style.height = "100vh";
+    maximizeButton.style.display = "none";
+    minimizeButton.style.display = "block";
+    resumeContainer.classList.add("maximized");
+  }
+}
