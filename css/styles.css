@@ -81,7 +81,7 @@ body {
 
 }
 .bottom-container {
-  margin: 200px 0 0 0;
+  margin: 0px 0 0 0;
   background-color: #66bfbf;
   padding-top: 50px;
   height: 100px;
@@ -95,6 +95,7 @@ body {
   position: relative;
   left: 26%;
   animation: cloud-motion-top 2s ease-in-out;
+  
 }
 .bottom-cloud {
   position: absolute;
@@ -106,12 +107,13 @@ h1 {
   font-size: 5.625rem;
   font-family: "Sacramento", cursive;
   color: #66bfbf;
+  
 }
 h3 {
   font-family: "Handlee", cursive;
-  color: #66bfbf;
+  color:#40514e;
   font-weight: normal;
-  font-size: 2rem;
+  font-size: 4rem;
   
 }
 h2 {
@@ -186,15 +188,20 @@ h2 {
   font-size: 4rem;
   font-family: "Handlee", cursive;
   margin-bottom: 0px;
+  margin-top: 10px;
   
 }
 h4{
   margin-bottom: 0px;
+  font-family: "Handlee", cursive;
+  font-size: 4rem;
+  margin-top: 0px;
+
 }
 
 .center-line{
   border: solid black 2px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   margin-bottom: 10px;
   width: 0px;
   margin-left: 100px;
@@ -206,11 +213,14 @@ h4{
 .dp {
   width: 250px;
   margin-top: 50px;
+ 
 }
 
 .dp:hover{
   transform: translateX(-40px) rotate(-25deg);
   transition: 0.5s ease-in-out;
+
+ 
 
 }
 hr {
@@ -283,11 +293,16 @@ a:hover {
   padding: 15px;
   border-radius: 5px;
   
+  text-indent: 2%;
+  
 
 }
 .technology:hover{
   background-color:#11999e;
   color: whitesmoke;
+  transition: 0.3s ease-in;
+  box-shadow: 3px 3px rgb(39, 39, 39), -1em 0 .4em rgb(107, 107, 107);
+  font-size: 1.2rem;
 }
 
 
@@ -299,23 +314,91 @@ a:hover {
   border-radius: 5px;
 
 }
+.profile:hover{
+  background-color: #EF6262;
+  color: white;
+  transition: 0.5s ease-in-out;
+  font-size: large;
+  
+  
+}
+.hello:hover{
+  text-decoration:underline;
+  
+}
 
 .projects{
   font-size: 4rem;
-  color: ;
+  
+}
+/* 
+.work-exp{
+  background-color: #0e0d0d;
+  
+ 
+  height: 550px;
+}
+.internship-exp{
+  display: inline-block;
+
+  width:300px;
+  height: 400px;
+  background-color: rgba(237, 237, 237, 0.977);
+ 
+  margin: 5px;
+
+} */
+.exp{
+  background-color: #6527BE;
+  
+}
+.parent {
+
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+  
+}
+.child {
+  display: inline-block;
+ 
+  vertical-align: middle;
+  margin: 10px 0px;
+  background-color: white;
+  /* #9681EB */
+}
+.child p{
+  margin-left: 300px;
+  margin-right: 300px;
+  /* color: rgb(212, 212, 212); */
+  
+ 
 }
 
+h5{
+  font-size: 3rem;
+  margin-bottom: 0px;
+}
 
+.child:hover{
+  /* background-color: rgb(65, 160, 65); */
+  background-color: #9681EB;
+  color: white;
+  box-shadow: #40514e;
+  transition: 0.2s ease-in;
+  box-sizing: border-box;
+  box-shadow: 25px 15px 15px rgb(18, 17, 17);
+}
 
+.resume-section{
+  background-color: #6363635a;
+  /* padding: 100px 20px; */
+}
 
-
-
-
-
-
-
-
-
+#resume{
+  width: 700px;
+  height: 700px;
+}
 
 
 
