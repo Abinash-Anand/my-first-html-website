@@ -186,22 +186,24 @@ h2 {
   display: grid;
   grid-auto-flow: column;
   font-size: 4rem;
-  font-family: "Handlee", cursive;
+  /* font-family: "Handlee", cursive; */
   margin-bottom: 0px;
   margin-top: 10px;
+  
   
 }
 h4{
   margin-bottom: 0px;
-  font-family: "Handlee", cursive;
-  font-size: 4rem;
+  /* font-family: "Handlee", cursive; */
+  font-size: 2.5rem;
   margin-top: 0px;
+  /* box-shadow: 3px 3px rgba(39, 39, 39, 0.845), -1em 0 .4em rgb(107, 107, 107); */
 
 }
 
 .center-line{
   border: solid black 2px;
-  /* margin-top: 50px; */
+  margin-top: 20px;
   margin-bottom: 10px;
   width: 0px;
   margin-left: 100px;
@@ -219,6 +221,10 @@ h4{
 .dp:hover{
   transform: translateX(-40px) rotate(-25deg);
   transition: 0.5s ease-in-out;
+  /* background-color: #EF6262;
+  color: white;
+  transition: 2s ease;
+  font-size: large; */
 
  
 
@@ -283,10 +289,12 @@ a:hover {
 }
 .heading-animation{
   animation: heading-text-motion 2s ease-out;
+  
 }
 
 .tech-stack{
   background-color: #d1d1d12d;
+  
 }
 .technology{
   background-color: #5e5e5e20;
@@ -301,7 +309,7 @@ a:hover {
   background-color:#11999e;
   color: whitesmoke;
   transition: 0.3s ease-in;
-  box-shadow: 3px 3px rgb(39, 39, 39), -1em 0 .4em rgb(107, 107, 107);
+  box-shadow: 3px 3px rgba(39, 39, 39, 0.845), -1em 0 .4em rgb(107, 107, 107);
   font-size: 1.2rem;
 }
 
@@ -314,13 +322,13 @@ a:hover {
   border-radius: 5px;
 
 }
-.profile:hover{
+/* .profile:hover{
   background-color: #EF6262;
   color: white;
-  transition: 0.5s ease-in-out;
+  transition: 2s ease;
   font-size: large;
   
-}
+} */
 /* }
 .profile::before{
   content: "";
