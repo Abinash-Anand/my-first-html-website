@@ -76,3 +76,24 @@ imgHover.addEventListener("mouseleave", mouseLeave);
 // function (){
 //   if(project1)
 // }
+//css custom button
+const btn = document.querySelectorAll(".btn-custom");
+function pressDown() {
+  this.style.backgroundColor = "#E4A5FF";
+  this.style.color = "white";
+  const path = this.getAttribute("data-path");
+  console.log("Navigate to: " + path);
+}
+function btnRelease() {
+  this.style.backgroundColor = "white";
+  this.style.color = "black";
+}
+btn.forEach(function (btn) {
+  btn.addEventListener("click", pressDown);
+  btn.addEventListener("mouseleave", btnRelease);
+});
+// const url = document.querySelectorAll(".btn-custom");
+// function redirectToURL() {
+//   (window.open = "https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow"),
+//     "_blank";
+// }
