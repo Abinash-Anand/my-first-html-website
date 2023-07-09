@@ -10,6 +10,7 @@ body {
   
 }
 
+
 .top_container {
   display: block;
   background-color: #e8ffff;
@@ -80,14 +81,31 @@ body {
 .middle-container{
 
 }
-.bottom-container {
-  margin: 0px 0 0 0;
-  background-color: #66bfbf;
+footer {
+  margin: 0px !important;
   padding-top: 50px;
   height: 100px;
+ 
 }
+.socials{
+  padding:10px ;
+  margin: 0px;
+}
+.socials:hover{
+  
+  /* width: 60px;
+  height: 70px; */
+  color: white;
+  box-shadow: inset 5em 1em rgba(34, 34, 34, 0.16);
+  /* border-radius: 50%; */
+  transition: 0.5s ease-in;
+}
+
 .copy-right {
-  margin: 0;
+  margin: 0px 0px 5px 0px !important;
+ font-family:  "Sacramento";
+ font-size: 2rem;
+ /* box-shadow: 3px 3px rgba(163, 163, 163, 0.189), -1em 0 .4em rgb(33, 33, 33); */
 }
 
 .top-cloud {
@@ -202,8 +220,8 @@ h4{
 }
 
 .center-line{
-  border: solid black 2px;
-  margin-top: 20px;
+  border: solid rgba(0, 0, 0, 0.372) 2px;
+  /* margin-top: 20px; */
   margin-bottom: 10px;
   width: 0px;
   margin-left: 100px;
@@ -278,7 +296,7 @@ a:hover {
   color: white;
 }
 .copy-right {
-  color: #eaf6f6;
+  color: #000;
   margin-top: 30px;
 }
 .nightMode-btn {
@@ -341,10 +359,7 @@ a:hover {
   
 }
 
-.projects{
-  font-size: 4rem;
-  
-}
+
 /* 
 .work-exp{
   background-color: #0e0d0d;
