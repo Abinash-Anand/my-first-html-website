@@ -142,8 +142,7 @@ function darkMode() {
     harryPotter.style.backgroundColor = "white";
     cloudElement.style.filter =
       " brightness(150%) drop-shadow(0 0 10px rgba(0, 255, 255, 0.7))";
-    cloudElementTwo.style.filter =
-      "brightness(150%) drop-shadow(0 0 10px rgba(0, 255, 255, 0.7))";
+    cloudElementTwo.style.display = "none";
     //transitions ==================
     elementArray.forEach((transition) => {
       transition.style.transition = ".5s ease-in";
@@ -164,15 +163,16 @@ function darkMode() {
     });
 
     //web stack
-    webTechHeading.forEach((heading) => {
-      heading.style.color = "white";
-    });
+    // webTechHeading.forEach((heading) => {
+    //   heading.style.color = "white";
+    // });
 
     //stack elements
     webTechHeading.forEach((heading) => {
       heading.style.color = "white";
       heading.style.filter =
         "brightness(150%) drop-shadow(0 0 10px rgba(0, 255, 255, 0.7))";
+      heading.style.boxShadow = "3px 3px 3px white";
     });
 
     // workExp.style.boxShadow = "15px 10px  rgb(41, 41, 41)";

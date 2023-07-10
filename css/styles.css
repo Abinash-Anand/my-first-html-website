@@ -20,6 +20,7 @@ body {
 
 
 .carousel {
+  margin-top: 20px; 
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -114,8 +115,10 @@ footer {
   position: absolute;
   left: 15%;
   animation: cloud-motion-bottom 2s ease-in-out;
+  
+
 }
-h1 {
+h1 {  
   margin: 50px auto 0 auto;
   font-size: 5.625rem;
   font-family: "Sacramento",sans-serif;
@@ -199,9 +202,10 @@ h2 {
   display: grid;
   grid-auto-flow: column;
   font-size: 4rem;
+  
  
   /* font-family: "Handlee", cursive; */
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   margin-top: 10px;
   
   
@@ -403,7 +407,7 @@ a:hover {
 } */
 .exp{
   background-color: #6527BE;
-  
+
 }
 .parent {
 
@@ -445,6 +449,7 @@ h5{
 
 .resume-section{
   background-color: #6363635a;
+
   /* padding: 100px 20px; */
 }
 
@@ -462,6 +467,7 @@ h5{
   width: 100%;
   height: 600px; /* Set desired initial height */
   transition: all 0.3s ease;
+  margin-top: 10px;
   
 }
 
