@@ -202,12 +202,9 @@ h2 {
   display: grid;
   grid-auto-flow: column;
   font-size: 4rem;
-  
- 
   /* font-family: "Handlee", cursive; */
   margin-bottom: 20px;
-  margin-top: 10px;
-  
+  margin-top: 30px;
   
 }
 h4{
@@ -224,9 +221,7 @@ h4{
   /* margin-top: 20px; */
   margin-bottom: 10px;
   width: 0px;
-  margin-left: 100px;
-  
-  
+  margin-left: 170px;
   
 }
 
@@ -243,8 +238,6 @@ h4{
   color: white;
   transition: 2s ease;
   font-size: large; */
-
- 
 
 }
 hr {
@@ -314,8 +307,10 @@ a:hover {
   background-color: #d1d1d12d;
 }
 .web-tech{
-  color: #000 ;
-  font-weight: 900;
+  color: #000000c1 ;
+  font-weight: 500;
+  font-size: 2.5rem;
+font-family: sans-serif;
 
 }
 .technology{
@@ -335,7 +330,9 @@ a:hover {
   font-size: 1.2rem;
 }
 
-
+.projects{
+  margin-top: 30px;
+}
 .project-links{
   background-color: rgb(169, 165, 165);
   padding: 15px;
