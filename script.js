@@ -58,6 +58,7 @@ function nightMode() {
   cloudElement.style.filter =
     " brightness(150%) drop-shadow(0 0 10px rgba(0, 255, 255, 0.7))";
   cloudElementTwo.style.display = "none";
+
   //Heading Name glow
   // heading.forEach((component) => {
   //   component.style.filter =

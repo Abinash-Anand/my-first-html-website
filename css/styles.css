@@ -84,9 +84,15 @@ footer {
   height: 100px;
  
 }
+.footer-link{
+  position: relative;
+  right: 50%;
+}
+
 .socials{
   padding:10px ;
   margin: 0px;
+  
 }
 .socials:hover{
   
@@ -97,6 +103,8 @@ footer {
   /* border-radius: 50%; */
   transition: 0.3s ease-in;
 }
+
+
 
 .copy-right {
   margin: 0px 0px 5px 0px !important;
@@ -352,6 +360,7 @@ a:hover {
   animation: heading-text-motion 2s ease-out;
   font-family:  "Sacramento",sans-serif;
   font-size: 5.625rem;
+  margin-top: 10px;
 }
 
 .tech-stack-front{
@@ -390,7 +399,7 @@ a:hover {
   /* background-color:#11999e; */
   color: whitesmoke;
   transition: 0.3s ease-in;
-  box-shadow: inset 30em 1em #4aff506c;
+  box-shadow: inset 30em 1em #9d5ff4;
   font-size: 1.2rem;
 }
 .tech-icons{
@@ -427,7 +436,10 @@ a:hover {
 
 
 
-
+.animate-socials{
+  margin: 0px;
+  padding: 0px;
+}
 
 
 
