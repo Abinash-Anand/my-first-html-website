@@ -4,7 +4,7 @@
 body {
   color: #40514e;
   text-align: center;
-  font-family: sans-serif;
+  font-family:  "Arial", sans-serif;
   margin: 0;
   height: 100vh;
   /* background-color: #c8dede !important; */
@@ -95,7 +95,7 @@ footer {
   color: white;
   box-shadow: inset 5em 1em rgba(69, 255, 36, 0.292);
   /* border-radius: 50%; */
-  transition: 0.5s ease-in;
+  transition: 0.3s ease-in;
 }
 
 .copy-right {
@@ -350,7 +350,8 @@ a:hover {
 }
 .heading-animation{
   animation: heading-text-motion 2s ease-out;
-  
+  font-family:  "Sacramento",sans-serif;
+  font-size: 5.625rem;
 }
 
 .tech-stack-front{
@@ -376,6 +377,8 @@ a:hover {
 }
 .technology{
   background-color: #5e5e5e20;
+  align-items: center;
+  text-align: center;
   /* padding: 15px; */
   /* margin: 10px 100px; */
   /* text-indent: 2%; */
@@ -390,7 +393,9 @@ a:hover {
   box-shadow: inset 30em 1em #4aff506c;
   font-size: 1.2rem;
 }
-
+.tech-icons{
+ 
+}
 .projects{
   margin-top: 30px;
 }

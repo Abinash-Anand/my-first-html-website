@@ -109,12 +109,12 @@ function nightMode() {
     "brightness(150%) drop-shadow(0 0 10px rgba(0, 255, 255, 0.7))";
   harryPotter.style.backgroundColor = "white";
 }
-function refresh() {
-  window.location.reload();
-}
+// function refresh() {
+//   window.location.reload();
+// }
 
 cloudElement.addEventListener("click", nightMode);
-cloudElement.addEventListener("click", refresh);
+
 const carousel = document.querySelector(".carousel");
 const carouselContainer = document.querySelector(".carousel-container");
 const prevBtn = document.querySelector(".carousel-prev");
