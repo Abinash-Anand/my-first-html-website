@@ -1,6 +1,41 @@
 "strict mode";
+const wordElement = document.getElementById("word");
+const words = ["Hello!", "I'm Abinash Anand", "Welcome to my Profile"]; // Array of words/phrases you want to animate
+let wordIndex = 0;
+let letterIndex = 0;
+let reverse = false;
+
+function typeLetter() {
+  const currentWord = words[wordIndex];
+
+  if (!reverse) {
+    wordElement.textContent += currentWord[letterIndex];
+    letterIndex++;
+
+    if (letterIndex === currentWord.length) {
+      reverse = true;
+      setTimeout(typeLetter, 1000); // Delay before starting reverse printing (adjust as needed)
+      return;
+    }
+  } else {
+    letterIndex--;
+    wordElement.textContent = currentWord.substring(0, letterIndex);
+
+    if (letterIndex === 0) {
+      reverse = false;
+      wordIndex = (wordIndex + 1) % words.length; // Move to the next word
+    }
+  }
+
+  setTimeout(typeLetter, 100); // Delay between each letter (adjust as needed)
+}
+
+typeLetter();
+
+//Hello! I'm Abinash Anand
 //Variables
 // const heading = document.querySelectorAll(".heading-animation");
+
 const cloudElementTwo = document.querySelector(".bottom-cloud");
 const middleContainer = document.querySelector(".middle-container");
 const webTechHeading = document.querySelectorAll(".web-tech");
@@ -236,3 +271,4 @@ btn.forEach(function (btn) {
 // }
 
 // cloudElement.addEventListener("click", darkMode);
+//typing letter animation

@@ -427,6 +427,9 @@ a:hover {
 
 
 
+
+
+
 /* .profile:hover{
   background-color: #EF6262;
   color: white;
@@ -441,12 +444,6 @@ a:hover {
   height: 400px;
   background-color: #11cdd4;
 } */
-.hello:hover{
-  text-decoration:underline;
-  
-}
-
-
 /* 
 .work-exp{
   background-color: #0e0d0d;
@@ -581,8 +578,21 @@ h5{
   color :"white";
 } */
 
+/* typing letter*/
 
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 2s steps(30, end);
+}
 
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+}
 
 
 
