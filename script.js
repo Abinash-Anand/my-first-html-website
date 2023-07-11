@@ -114,7 +114,7 @@ function nightMode() {
 // }
 
 cloudElement.addEventListener("click", nightMode);
-cloudElement.addEventListener("click", refresh);
+
 const carousel = document.querySelector(".carousel");
 const carouselContainer = document.querySelector(".carousel-container");
 const prevBtn = document.querySelector(".carousel-prev");
