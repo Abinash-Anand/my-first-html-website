@@ -14,14 +14,13 @@ body {
 
 .top_container {
   display: block;
-  
   overflow-x:hidden ;
 
 }
 
 
 .carousel {
-  margin-top: 20px; 
+  margin-top: 1.25rem; 
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -44,8 +43,8 @@ body {
 
 .carousel-slide-content {
   position: absolute;
-  bottom: 20px;
-  left: 20px;
+  bottom: 1.25rem;
+  left: 1.25rem;
   color: white;
 }
 
@@ -64,24 +63,24 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 24px;
+  font-size: 1.5rem;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
+  padding: 0.625rem;
   cursor: pointer;
 }
 
 .carousel-prev {
-  left: 10px;
+  left: 0.625rem;
 }
 
 .carousel-next {
-  right: 10px;
+  right: 0.625rem;
 }
 footer {
   margin: 0px !important;
-  padding-top: 50px;
-  height: 100px;
+  padding-top: 3.125rem;
+  height: 6.25rem;
  
 }
 /* .footer-link{
@@ -90,8 +89,8 @@ footer {
 } */
 
 .socials{
-  padding:10px ;
-  margin: 0px;
+  padding: 3.125rem ;
+  margin: 0rem;
   
 }
 .socials:hover{
@@ -107,14 +106,14 @@ footer {
 
 
 .copy-right {
-  margin: 0px 0px 5px 0px !important;
+  margin: 0rem 0rem 0.3125rem 0rem !important;
  font-family:  "Sacramento";
  font-size: 2rem;
  /* box-shadow: 3px 3px rgba(163, 163, 163, 0.189), -1em 0 .4em rgb(33, 33, 33); */
 }
 
 .top-cloud {
-  margin-top: 10px;
+  margin-top: 0.625rem;
   position: relative;
   left: 26%;
   animation: cloud-motion-top 2s ease-in-out;
@@ -125,11 +124,11 @@ footer {
   left: 15%;
   animation: cloud-motion-bottom 2s ease-in-out;
   filter :
-  brightness(150%) drop-shadow(0 0 100px rgb(242, 255, 0));  
+  brightness(150%) drop-shadow(0 0 6.25rem rgb(242, 255, 0));  
 
 }
 h1 {  
-  margin: 50px auto 0 auto;
+  margin: 3.125rem auto 0 auto;
   font-size: 5.625rem;
   font-family: "Sacramento",sans-serif;
   color: #66bfbf;
@@ -152,7 +151,7 @@ h2 {
   overflow-x: hidden;
 }
 .hello {
-  margin: 10px 265px;
+  margin: 0.625rem 16.5625rem;
   /* width: 30%;
   position: relative;
   left: 35%;
@@ -212,27 +211,27 @@ h2 {
   grid-auto-flow: column;
   font-size: 4rem;
   /* font-family: "Handlee", cursive; */
-  margin-bottom: 20px;
-  margin-top: 30px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-bottom: 1.25rem;
+  margin-top: 1.875rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
   
 }
 h4{
-  margin-bottom: 0px;
+  margin-bottom: 0rem;
   /* font-family: "Handlee", cursive; */
   font-size: 2.5rem;
-  margin-top: 0px;
+  margin-top: 0rem;
   /* box-shadow: 3px 3px rgba(39, 39, 39, 0.845), -1em 0 .4em rgb(107, 107, 107); */
 
 }
 
 .center-line{
-  border: solid rgba(0, 0, 0, 0.372) 2px;
+  border: solid rgba(0, 0, 0, 0.372) 0.125rem;
   /* margin-top: 20px; */
-  margin-bottom: 10px;
-  width: 0px;
-  margin-left: 170px;
+  margin-bottom: 0.625rem;
+  width: 0rem;
+  margin-left: 10.625rem;
   
 }
 
@@ -254,19 +253,19 @@ h4{
 } */
 .about-me{
  
-  margin:0px 70px ;
+  margin:0px 4.375rem ;
   text-align: justify;
   
 }
 
 .header-intro{
-  margin-top: 40px;
+  margin-top: 2.5rem;
   text-align: justify;
 
 }
 .intro-content{
   text-align: justify;
-  margin-right: 162px;
+  margin-right: 10.125rem;
 }
 
 .name-attributes{
@@ -281,13 +280,13 @@ position: relative;
 left: 20%;
 }
 span{
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
 }
 
 /*end ---------------------------------------*/
 .dp {
-  width: 320px;
-  margin:50px  50px 50px 95px;
+  width: 20rem;
+  margin:3.125rem 3.125rem 3.125rem 5.9375rem;
 }
 
 .dp:hover{
@@ -297,8 +296,8 @@ span{
   color: white;
   transition: 2s ease;
   font-size: large; */
-  box-shadow : 20px 20px  20px rgb(72, 72, 211);
-  width: 350px;
+  box-shadow : 1.25rem 1.25rem  1.25rem rgb(72, 72, 211);
+  width: 21.875rem;
 }
 hr {
   border-width: 8px;
@@ -313,7 +312,7 @@ hr {
   left: 32%;
  
 }
-.btn {
+/* .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #2980b9);
   background-image: -moz-linear-gradient(top, #11cdd4, #2980b9);
@@ -338,10 +337,10 @@ hr {
   background-image: -o-linear-gradient(top, #3cb0fd, #2bc4ed);
   background-image: linear-gradient(to bottom, #3cb0fd, #2bc4ed);
   text-decoration: none;
-}
+} */
 a {
   color: #11999e;
-  margin: auto 20px;
+  margin: auto 1.25rem;
   font-family: "Handlee", cursive;
   text-decoration: none;
 }
@@ -350,7 +349,7 @@ a:hover {
 }
 .copy-right {
   color: #000;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 .nightMode-btn {
   display: inline;
@@ -362,19 +361,19 @@ a:hover {
   animation: heading-text-motion 2s ease-out;
   font-family:  "Sacramento",sans-serif;
   font-size: 5.625rem;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 .tech-stack-front{
   background-color: #d1d1d12d;
   /* margin: 50px; */
-  margin: 0px 10px 10px 100px;
+  margin: 0.625rem 0.625rem 0.625rem 6.25rem;
 }
 
 .tech-stack-back{
   background-color: #d1d1d12d;
   /* margin: 50px; */
-  margin: 0px 100px 10px 10px;
+  margin: 0rem 6.25rem 0.625rem 0.625rem;
   text-overflow: ellipsis;
 }
 
@@ -408,7 +407,7 @@ a:hover {
  
 }
 .projects{
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 .project-links{
   background-color: #6f6f6f !important;
@@ -419,15 +418,15 @@ a:hover {
 /* Custom Button*/
 .btn-custom{
   text-decoration: none;
-  padding: 20px;
+  padding: 1.25rem;
   background-color: #ffffff;
-  margin: 5px;
+  margin: 0.125rem;
   border: none;
   font-size: 1rem;
   font-weight: 600;
 }
 .btn-custom:hover{
-  box-shadow: 15px 10px  rgb(41, 41, 41);
+  box-shadow: 0.9375rem 0.625rem  rgb(41, 41, 41);
   transition: .3s ease-out;
   background-color: #9d5ff4 !important;
   color: white !important;
@@ -439,8 +438,8 @@ a:hover {
 
 
 .animate-socials{
-  margin: 0px;
-  padding: 0px;
+  margin: 0rem;
+  padding: 0rem;
 }
 
 
@@ -495,13 +494,13 @@ a:hover {
   display: inline-block;
  
   vertical-align: middle;
-  margin: 10px 0px;
+  margin: 0.625rem 0rem;
   background-color: white;
   /* #9681EB */
 }
 .child p{
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 18.75rem;
+  margin-right: 18.75rem;
   /* color: rgb(212, 212, 212); */
   
  
@@ -509,7 +508,7 @@ a:hover {
 
 h5{
   font-size: 3rem;
-  margin-bottom: 0px;
+  margin-bottom: 0rem;
 }
 
 .child:hover{
@@ -519,7 +518,7 @@ h5{
   box-shadow: #40514e;
   transition: 0.2s ease-in;
   box-sizing: border-box;
-  box-shadow: 25px 15px 15px rgb(18, 17, 17);
+  box-shadow: 1.5625rem 0.9375rem 0.9375rem rgb(18, 17, 17);
 }
 
 /* .resume-section{
@@ -576,10 +575,10 @@ h5{
 } */
 
 .front-end{
-  margin-right: 0px !important;
+  margin-right: 0rem !important;
 }
 .back_end{
-  margin-left: 0px !important;
+  margin-left: 0rem !important;
 }
 
 .a-btn{
@@ -589,7 +588,7 @@ h5{
   font-stretch: extra-expanded;
   position: relative;
   top: 9%;
-  left: -3px;
+  left: -0.1875rem;
 }
 
 /* .dark-mode{
@@ -601,7 +600,7 @@ h5{
 
 h1 {
   font-family: Arial, sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   overflow: hidden;
   white-space: nowrap;
   animation: typing 2s steps(30, end);
@@ -661,11 +660,18 @@ h1 {
 @media(max-width:998px){
   html{
     font-size: 55%;
+    overflow-x: hidden;
   }
  }
  @media(max-width:768px){
   html{
     font-size: 45%;
+    overflow-x: hidden;
+  }
+ }
+ @media(max-width:560px){
+  html{
+    font-size: 35%;
     
   }
  }
