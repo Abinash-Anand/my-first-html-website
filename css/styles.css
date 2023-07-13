@@ -1,12 +1,16 @@
 * {
   box-sizing: border-box;
 }
+html{
+  height:-webkit-fill-available;
+}
 body {
   color: #40514e;
   text-align: center;
   font-family:  "Arial", sans-serif;
   margin: 0;
-  height: 100vh;
+  height:-webkit-fill-available;
+
   /* background-color: #c8dede !important; */
   
 }
@@ -656,7 +660,84 @@ h1 {
   }
 }
 /*Media queries */
+@media screen and (max-width:414px)  {
+  .bottom-cloud{
+    position: absolute;
+    top: 0%;
+    margin-left: 0px;
+    }
+.heading-animation{
+  position: relative;
+  top: 20%;
 
+}
+
+  .topContainer{
+   height: 120rem;
+  }
+  .mountain{
+  display: none;
+  }
+  .middle-container{
+    height: 120rem;
+    
+  }
+.dp{
+ display:block;
+ position: absolute;
+ height: 60rem;
+ width: 47rem;
+ left: 6%;
+ border-radius: 50%;  
+}
+.about-me{
+  position: relative;
+  top: 55%;
+}
+.header-intro{
+  font-size: 5.5rem;
+}
+.intro-content{
+  font-size: 1.6rem;
+}
+.name-attributes{
+  font-size: 1.6rem;
+}
+.name-values{
+  font-size: 1.6rem;
+}
+
+.skills-container{
+  height: 100rem;
+  overflow-y: hidden;
+  
+}
+h4{
+  font-size: 6rem;
+}
+.tech-stack-back{
+  margin-top:  0.6rem;
+  margin-bottom: 103rem;
+}
+.tech-stack-front{
+  margin-bottom: 100rem;
+
+}
+
+.carousel{
+height: 80rem ;
+width: 70rem;
+}
+.carousel-container{
+  height: 70rem;
+  width: 100rem;
+
+}
+.carousel-im{
+  border-radius: 50%;
+}
+
+}
 @media(max-width:998px){
   html{
     font-size: 55%;
@@ -675,3 +756,5 @@ h1 {
     
   }
  }
+
+
