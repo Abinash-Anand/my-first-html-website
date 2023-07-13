@@ -689,6 +689,7 @@ h1 {
 
   .topContainer{
    height: 120rem;
+   
   }
   .mountain{
   display: none;
@@ -703,9 +704,10 @@ h1 {
  height: 60rem;
  width: 47rem;
  right:18%;
-
-
-
+}
+.dp:hover{
+  width: 50rem;
+  
 }
 .about-me{
   position: relative;
