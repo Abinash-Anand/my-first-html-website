@@ -38,6 +38,7 @@ typeLetter();
 
 const cloudElementTwo = document.querySelector(".bottom-cloud");
 const middleContainer = document.querySelector(".middle-container");
+const profileStyle = document.querySelector(".profile").style;
 const webTechHeading = document.querySelectorAll(".web-tech");
 const techStackComponent = document.querySelectorAll(".tech-stack");
 const technologyElements = document.querySelectorAll(".technology");
@@ -59,6 +60,8 @@ function nightMode() {
     " brightness(150%) drop-shadow(0 0 10px rgba(0, 255, 255, 0.7))";
   cloudElementTwo.style.display = "none";
 
+  //profile
+  profileStyle.backgroundColor = "#0F0E0E";
   //Heading Name glow
   // heading.forEach((component) => {
   //   component.style.filter =
@@ -183,7 +186,6 @@ for (let i = 0; i < buttons.length; i++) {
 //dp animation
 
 // const imgHover = document.getElementsByClassName("dp")[0]; // Select the first element with the class name "dp"
-// const profileStyle = document.querySelector(".profile").style;
 
 // function mouseOver() {}
 
