@@ -659,21 +659,36 @@ h1 {
     opacity: 1;
   }
 }
+
+
 /*Media queries */
 @media screen and (max-width:414px)  {
+
   .bottom-cloud{
     position: absolute;
-    top: 0%;
+    top: 5%;
     margin-left: 0px;
+    }
+    .top-cloud{
+      margin-top: 10%;
     }
 .heading-animation{
   position: relative;
   top: 20%;
+}
+#heading{
+  font-size: 6rem !important;
+}
 
+.footer-link{
+  position: relative;
+  top: 50%;
+  animation:heading-text-motion ease-out 2s;
 }
 
   .topContainer{
    height: 120rem;
+ 
   }
   .mountain{
   display: none;
@@ -707,6 +722,7 @@ h1 {
   font-size: 1.6rem;
 }
 
+
 .skills-container{
   height: 100rem;
   overflow-y: hidden;
@@ -723,21 +739,38 @@ h4{
   margin-bottom: 100rem;
 
 }
-
 .carousel{
 height: 80rem ;
-width: 70rem;
 }
 .carousel-container{
   height: 70rem;
   width: 100rem;
+}
+p{
+ font-size: 1.5rem;   
+  text-align: justify;
+}
+.btn-custom{
+  width: 15rem;
+  height: 5rem;
+  font-size: 2rem;
+}
+.copy-right{
+  position: absolute;
+  left: 35%;
+}
+.hp-img{
+  height: 3.5rem;
+  width: 3.5rem;
+}
+}
+@media(max-width:998px){
+  html{
+    font-size: 55%;
+    overflow-x: hidden;
+  }
+ }
 
-}
-.carousel-im{
-  border-radius: 50%;
-}
-
-}
 @media(max-width:998px){
   html{
     font-size: 55%;
