@@ -89,9 +89,8 @@ footer {
 } */
 
 .socials{
-  padding: 3.125rem ;
-  margin: 0rem;
-  
+  padding:10px ;
+  margin: 0px;
 }
 .socials:hover{
   
@@ -100,13 +99,11 @@ footer {
   color: white;
   box-shadow: inset 5em 1em rgba(69, 255, 36, 0.292);
   /* border-radius: 50%; */
-  transition: 0.3s ease-in;
+  transition: 0.5s ease-in;
 }
 
-
-
 .copy-right {
-  margin: 0rem 0rem 0.3125rem 0rem !important;
+  margin: 0px 0px 5px 0px !important;
  font-family:  "Sacramento";
  font-size: 2rem;
  /* box-shadow: 3px 3px rgba(163, 163, 163, 0.189), -1em 0 .4em rgb(33, 33, 33); */
@@ -126,6 +123,9 @@ footer {
   filter :
   brightness(150%) drop-shadow(0 0 6.25rem rgb(242, 255, 0));  
 
+}
+.mountain{
+  width:50rem;
 }
 h1 {  
   margin: 3.125rem auto 0 auto;
