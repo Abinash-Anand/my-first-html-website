@@ -681,14 +681,14 @@ h1 {
 }
 
 .footer-link{
+
   position: relative;
-  top: 50%;
+  top: 60%;
   animation:heading-text-motion ease-out 2s;
 }
 
   .topContainer{
    height: 120rem;
- 
   }
   .mountain{
   display: none;
@@ -702,12 +702,15 @@ h1 {
  position: absolute;
  height: 60rem;
  width: 47rem;
- left: 6%;
- border-radius: 50%;  
+ right:18%;
+
+
+
 }
 .about-me{
   position: relative;
   top: 55%;
+
 }
 .header-intro{
   font-size: 5.5rem;
@@ -757,7 +760,7 @@ p{
 }
 .copy-right{
   position: absolute;
-  left: 35%;
+  left: 30%;
 }
 .hp-img{
   height: 3.5rem;
