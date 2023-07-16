@@ -21,7 +21,9 @@ body {
   overflow-x:hidden ;
 
 }
-
+.social-icons{
+  animation:heading-text-motion ease-out 2s;
+}
 
 .carousel {
   margin-top: 1.25rem; 
