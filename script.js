@@ -151,7 +151,7 @@ const button1 = document.getElementById("myButton");
 const button2 = document.getElementById("myButton2");
 const buttons = [button1, button2];
 const internshipOne =
-  "https://drive.google.com/drive/u/0/folders/1EvJ_SiFYsKEZ8v-5XlSh90aiyOs6acWb";
+  "https://github.com/Abinash-Anand/Database-Manager-application";
 const internshipTwo =
   "https://drive.google.com/file/d/1-BNdLteyIbdUESJX90dmCqzT4AWHe-nj/view?usp=sharing";
 const links = [internshipOne, internshipTwo];
